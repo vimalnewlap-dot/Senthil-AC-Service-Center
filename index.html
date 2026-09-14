@@ -61,6 +61,29 @@
   <!-- Preloader -->
   <div class="preloader"></div>
 
+<style>
+  .play-now .icon {
+    position: relative;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+    background-color: #ffffff;
+    color: #ff6d2e;
+    z-index: 1;
+    padding-left: 0px;
+    font-size: 32px;
+    display: block;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0px 10px 0 rgba(255, 255, 255, 0.3);
+    -ms-box-shadow: 0 0px 10px 0 rgba(255, 255, 255, 0.3);
+    -o-box-shadow: 0 0px 10px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0px 10px 0 rgba(255, 255, 255, 0.3);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+}
+</style>
   <!-- Main Header-->
   <header class="main-header header-style-one style-one">
     <!-- Header Top -->
@@ -103,19 +126,9 @@
             <nav class="nav main-menu">
               <ul class="navigation">
                 <li class="current"><a href="index.html">Home</a></li>
-                <li class="dropdown"><a href="#">Pages</a>
-                  <ul>
-                    <li><a href="page-about.html">About</a></li>
-                     <li><a href="page-faq.html">FAQ</a></li>
-                    <li><a href="page-404.html">Page 404</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown"><a href="#">Services</a>
-                  <ul>
-                    <li><a href="page-services.html">Services</a></li>
-                    <li><a href="page-service-details.html">Services Details</a></li>
-                  </ul>
-                </li>
+                <li><a href="page-about.html">About</a></li>
+                <li><a href="page-mission.html">Our Mission</a></li>
+                <li><a href="page-services.html">Services</a></li>
                 <li><a href="page-contact.html">Contact</a></li>
               </ul>
             </nav>
@@ -123,7 +136,7 @@
 
             <div class="outer-box">
             
-              <a class="theme-btn btn-style-three" href="page-contact.html"><span class="btn-title"><i class="fa fa-headset"></i> Call: 7200019872 </span></a>
+              <a class="theme-btn btn-style-three" href="tel:7200019872"><span class="btn-title"><i class="fa fa-headset"></i> Call: 7200019872 </span></a>
               <a class="theme-btn btn-style-three home-booking-cta" href="page-contact.html"><span class="btn-title"><i class="fa fa-calendar-check"></i> Book Your Service</span></a>
               <!-- Mobile Nav toggler -->
               <div class="mobile-nav-toggler"><i class="lnr-icon-bars"></i></div>
@@ -189,12 +202,12 @@
 </ul>
 
 
-        <ul class="social-links">
+        <!-- <ul class="social-links">
           <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
           <li><a href="#"><i class="fa fa-x"></i></a></li>
           <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-        </ul>
+        </ul> -->
       </nav>
     </div><!-- End Mobile Menu -->
 
@@ -279,10 +292,12 @@
               </div>
               <div class="image-box">
                 <img src="resource/banner-video-img.jpg" alt="">
-                <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-now" data-fancybox="gallery" data-caption=""><i class="icon fa fa-play" aria-hidden="true"></i><span class="ripple"></span></a>
+                <a href="https://www.instagram.com/senthil_ac_service_center/" class="play-now" data-caption=""><i class="icon fa fa-instagram" aria-hidden="true" style="
+    font-family: 'Font Awesome 6 Brands';
+"></i><span class="ripple"></span></a>
               </div>
             </div>
-            <div class="object-2 bounce-y"><span>Tool Box</span></div>
+            <div class="object-2 bounce-y"><span>Fix Problems</span></div>
           </div>
         </div>
       </div>
@@ -305,7 +320,7 @@
         <div class="col-xl-5 col-lg-6 wow fadeInUp content-column" data-wow-delay="300ms" data-wow-duration="1500ms">
           <div class="content-box mb-5 mb-xl-0">
             <div class="content-wrapper">
-              <div class="large-count">10</div>
+              <div class="large-count">5+</div>
               <div class="review-box">
                 <div class="ttl-review">4.8</div>
                 <div class="rvew-info">
@@ -517,7 +532,7 @@
           <div class="funfact-block wow fadeInUp col-lg-3 col-sm-6" data-wow-delay="100ms" data-wow-duration="1500">
             <div class="inner-block">
               <div class="count-box">
-                <h2 class="title"><span class="count-text" data-speed="3000" data-stop="10">0</span>+</h2>
+                <h2 class="title"><span class="count-text" data-speed="3000" data-stop="5">0</span>+</h2>
                 <div class="text">Years of Trust</div>
               </div>
             </div>
@@ -1181,13 +1196,8 @@
                       <h5 class="title">Book Your Service Today!</h5>
                     </div>
                     <div class="contact-social">
-                      <h5 class="title">Follow Us</h5>
-                      <div class="social-icons">
-                        <a href="#"><i class="fab fa-x-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                      </div>
+                      <h5 class="title">Follow Us <a href="#"><i class="fab fa-instagram"></i></a></h5>
+                      
                     </div>
                   </div>
                   <div class="contact-info wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -1229,7 +1239,13 @@
                       </div>
                       <div class="form-group col-lg-12">
                         <div class="btn-box">
-                          <button class="theme-btn btn-style-two" type="submit"><span class="btn-title">Send via WhatsApp</span> <i class="icon fa-classic fa-brands fa-whatsapp"></i></button>
+                          <button class="theme-btn btn-style-two" type="submit"><span class="btn-title">Send via WhatsApp</span> <i class="icon fa fa-whatsapp" style="
+    font-family: 'Font Awesome 6 Brands';
+    transform: rotate(
+356deg);
+    font-size: 27px;
+    font-weight: 200;
+"></i></button>
                         </div>
                       </div>
                     </div>
@@ -1415,49 +1431,34 @@
           <div class="row">
 
             <!-- Footer Column -->
-            <div class="footer-column col-lg-3 col-sm-6">
+            <div class="footer-column col-lg-4 col-sm-6">
               <div class="footer-widget about-widget">
-                <figure class="image mb-80"><a href="index.html"><img src="images/logo-2.png" alt="Image"></a></figure>
-                <ul class="footer-social-widget">
-                  <li><a href="#"><i class="fab fa-x-twitter me-2"></i> Twitter</a></li>
-                  <li><a href="#"><i class="fab fa-facebook-f me-2"></i> Facebook</a></li>
-                  <li><a href="#"><i class="fab fa-pinterest-p me-2"></i> Pinterest</a></li>
-                  <li><a href="#"><i class="fab fa-youtube me-2"></i> Instagram</a></li>
-                </ul>
+                <figure class="image mb-20"><a href="index.html"><img src="images/logo-2.png" alt="Image" style="width: 220px;"></a></figure>
+                <p style="color: white;padding-left: 20px;text-align: justify;">
+                    Senthil AC Service Center provides professional air conditioning services including installation, repair, maintenance, gas charging, deep cleaning, and buy/sell solutions for all AC types across Chennai. Call us today for reliable and affordable service.
+                  </p>
+                
               </div>
             </div>
 
-            <!-- Footer Column -->
-            <div class="footer-column col-lg-3 col-sm-6">
-              <div class="footer-widget contact-widget">
-                <div class="list-one mb-30">
-                  <h5 class="widget-title">Address</h5>
-                  <div class="text">No.1/228, Pillayar Kovil Street. Manapakkam, Chennai - 600 125</div>
-                </div>
-                <div class="list-one">
-                  <h5 class="widget-title mb-3">Phone</h5>
-                  <a class="phone" href="tel:+91 7200019872">+91 7200019872</a>
-                  <a class="phone" href="mailto: senthilacservicecenter@gmail.com">senthilacservicecenter@gmail.com</a>
-                </div>
-              </div>
-            </div>
+           
 
             <!-- Footer Column -->
-            <div class="footer-column col-lg-3 col-sm-6">
+            <div class="footer-column col-lg-2 col-sm-6">
               <div class="footer-widget links-widget">
-                <h5 class="widget-title">Company</h5>
+                <h5 class="widget-title">Links</h5>
                 <ul class="user-links">
                   <li><a href="page-about.html">About</a></li>
                   <li><a href="page-mission.html">Our Mission</a></li>
                  
-                  <li><a href="page-contact.html">Help Center</a></li>
+                  <li><a href="page-services.html">Services</a></li>
                   <li><a href="page-contact.html">Contact Us</a></li>
                 </ul>
               </div>
             </div>
 
             <!-- Footer Column -->
-            <div class="footer-column col-lg-3 col-sm-6">
+            <div class="footer-column col-lg-2 col-sm-6">
               <div class="footer-widget links-widget">
                 <h5 class="widget-title">Service</h5>
                 <ul class="user-links">
@@ -1468,48 +1469,563 @@
                 </ul>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-middle wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-      <div class="auto-container">
-        <div class="outer-box">
-          <div class="row align-items-lg-center">
-            <div class="col-lg-4">
-              <h3 class="nws-ttl text-center mb-2 mb-md-4 mb-lg-0">Join our newsletter</h3>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="newsltr-text mb-3 mb-md-0">It is a long established fact that a reader will be distracted by the readable content of a page</div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="footer-widget newsletter-widget">
-                <div class="newsletter-form">
-                  <form method="post" action="#">
-                    <div class="form-group">
-                      <input type="email" name="email" class="email" placeholder="Enter email" required>
-                      <button type="submit" class="form-btn"><i class="fa fa-paper-plane"></i></button>
-                    </div>
-                  </form>
+
+             <!-- Footer Column -->
+            <div class="footer-column col-lg-3 col-sm-6">
+              <div class="footer-widget contact-widget">
+                <div class="list-one mb-20">
+                  <h5 class="widget-title">Contact</h5>
+
+                  <div class="text"><i class="icon lnr-icon-map-marker"></i>No.1/228, Pillayar Kovil Street. Manapakkam, Chennai - 600 125</div>
+                </div>
+                <div class="list-one mb-20">
+                  
+                  <a class="phone" href="tel:+917200019872"><i class="icon lnr-icon-phone-handset"></i> +91 7200019872</a>
+                </div>
+                <div class="list-one mb-20">
+                 
+                  <a class="phone" href="mailto:senthilacservicecenter@gmail.com"><span class="icon lnr-icon-envelope1"></span> senthilacservicecenter@gmail.com</a>
                 </div>
               </div>
             </div>
+
+
           </div>
         </div>
       </div>
     </div>
+    
 
     <div class="footer-bottom wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
       <div class="auto-container">
         <div class="inner-container justify-content-between">
-          <div class="copyright-text mx-auto">© Copyright 2025 by Company.com</div>
+          <div class="copyright-text mx-auto">Copyright © 2025 Senthil AC Service Center. All Rights Reserved. || D & D By Suriya Infotect</div>
         </div>
       </div>
     </div>
   </footer>
+  <style>
+    .instagram-fixed-btn {
+  position: fixed;
+  bottom: 20px;       /* Distance from the bottom of the screen */
+  left: 20px;        /* Distance from the right edge */
+  z-index: 9999;      /* Keeps the icon above all other content */
+  
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); /* Instagram gradient */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+/* Slight hover effect */
+.instagram-fixed-btn:hover {
+  transform: scale(1.1);
+}
+  </style>
+  <a href="https://www.instagram.com/senthil_ac_service_center/" target="_blank" class="instagram-fixed-btn" aria-label="Instagram">
+  <!-- Replace with your SVG icon or <img> tag -->
+  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+  </svg>
+</a>
   <!-- End Main Footer -->
 
+<!--Start of Tawk.to Script-->
 
+<!-- FLOATING ACTION BUTTON (CLOSED ICON STATE) -->
+  <button class="chat-widget-trigger" id="chatTrigger" aria-label="Open Chat">
+    <div class="trigger-badge"></div>
+    <!-- WhatsApp Icon -->
+    <svg viewBox="0 0 24 24">
+      <path d="M12.031 2c-5.514 0-9.998 4.484-9.998 9.998 0 1.763.459 3.483 1.332 5.003l-1.365 4.999 5.118-1.343c1.472.803 3.137 1.226 4.913 1.226 5.514 0 9.998-4.484 9.998-9.998 0-5.514-4.484-9.998-9.998-9.998zm0 18.232c-1.547 0-3.064-.413-4.39-1.196l-.315-.187-3.04.797.811-2.964-.205-.327c-.858-1.367-1.312-2.949-1.312-4.557 0-4.538 3.693-8.231 8.231-8.231 4.538 0 8.231 3.693 8.231 8.231 0 4.538-3.693 8.231-8.231 8.231zm4.514-6.173c-.247-.124-1.463-.722-1.69-.804-.227-.083-.392-.124-.557.124-.165.247-.64.804-.784.969-.144.165-.289.186-.536.062-.247-.124-1.043-.385-1.987-1.227-.735-.656-1.232-1.466-1.376-1.713-.144-.247-.015-.38.109-.503.111-.11.247-.289.371-.433.124-.144.165-.247.247-.412.083-.165.042-.309-.021-.433-.062-.124-.557-1.34-.763-1.835-.201-.484-.405-.418-.557-.426l-.474-.008c-.165 0-.433.062-.66.309-.227.247-.866.845-.866 2.062 0 1.216.887 2.391 1.01 2.556.124.165 1.746 2.666 4.23 3.739.591.255 1.053.407 1.413.521.593.188 1.133.162 1.56.098.476-.071 1.463-.598 1.669-1.175.206-.577.206-1.072.144-1.175-.062-.103-.227-.186-.474-.309z"/>
+    </svg>
+  </button>
+
+  <!-- CHAT WINDOW CONTAINER -->
+  <div class="chat-widget-card" id="chatCard">
+    <!-- Header -->
+    <div class="chat-header">
+      <div class="chat-header-info">
+        <div class="avatar-icon">SA</div>
+        <div class="chat-header-text">
+          <h4>Senthil AC Service Center</h4>
+          <span class="status-indicator">
+            <span class="status-dot"></span> Online
+          </span>
+        </div>
+      </div>
+      <button class="close-btn" id="closeChatBtn" aria-label="Close Chat">&times;</button>
+    </div>
+
+    <!-- Message Area -->
+    <div class="chat-body" id="chatBody"></div>
+
+    <!-- Controls / Input Options Area -->
+    <div class="chat-footer" id="chatFooter"></div>
+  </div>
+
+
+
+ <!-- JAVASCRIPT CHATBOT LOGIC -->
+  <script>
+    // YOUR BUSINESS PHONE NUMBER WITH COUNTRY CODE (No + or spaces)
+    const businessNumber = "7200019872"; 
+
+    // List of offered AC Services
+    const acServices = [
+      "AC Installation",
+      "AC Repair & Servicing",
+      "Gas Charging & Deep Cleaning",
+      "PCB & Compressor Repair",
+      "Buy & Sell AC Units"
+    ];
+
+    let userData = {
+      service: "",
+      name: "",
+      phone: ""
+    };
+
+    let isInitialized = false;
+
+    // DOM Elements
+    const chatTrigger = document.getElementById("chatTrigger");
+    const chatCard = document.getElementById("chatCard");
+    const closeChatBtn = document.getElementById("closeChatBtn");
+    const chatBody = document.getElementById("chatBody");
+    const chatFooter = document.getElementById("chatFooter");
+
+    // Toggle Chat Window
+    chatTrigger.addEventListener("click", () => {
+      chatCard.classList.toggle("active");
+      if (chatCard.classList.contains("active") && !isInitialized) {
+        startChatSequence();
+        isInitialized = true;
+      }
+    });
+
+    closeChatBtn.addEventListener("click", () => {
+      chatCard.classList.remove("active");
+    });
+
+    // Helper: Add Message to Chat Screen
+    function addMessage(text, type) {
+      const msgDiv = document.createElement("div");
+      msgDiv.className = `msg ${type}`;
+      msgDiv.innerText = text;
+      chatBody.appendChild(msgDiv);
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }
+
+    // Helper: Show Bouncing Typing Dots
+    function showTypingIndicator() {
+      const typingDiv = document.createElement("div");
+      typingDiv.className = "msg bot typing-container";
+      typingDiv.id = "typingIndicator";
+      typingDiv.innerHTML = `
+        <div class="typing-indicator">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      `;
+      chatBody.appendChild(typingDiv);
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }
+
+    // Helper: Hide Bouncing Dots
+    function hideTypingIndicator() {
+      const indicator = document.getElementById("typingIndicator");
+      if (indicator) indicator.remove();
+    }
+
+    // Delayed Bot Response Wrapper
+    function addBotMessageWithDelay(text, delay = 1000, callback = null) {
+      showTypingIndicator();
+      chatFooter.style.pointerEvents = "none";
+
+      setTimeout(() => {
+        hideTypingIndicator();
+        addMessage(text, "bot");
+        chatFooter.style.pointerEvents = "auto";
+        if (callback) callback();
+      }, delay);
+    }
+
+    // STEP 1: INITIALIZE CHAT & SERVICE SELECTION
+    function startChatSequence() {
+      addBotMessageWithDelay("Hello! 👋 Welcome to Senthil AC Service Center. How can we help you today? Select a service:", 1000, () => {
+        renderServiceOptions();
+      });
+    }
+
+    function renderServiceOptions() {
+      let html = "";
+      acServices.forEach(service => {
+        html += `<button class="option-btn" onclick="handleServiceSelect('${service}')">${service}</button>`;
+      });
+      chatFooter.innerHTML = html;
+    }
+
+    function handleServiceSelect(service) {
+      userData.service = service;
+      addMessage(service, "user");
+      chatFooter.innerHTML = "";
+
+      // STEP 2: PROMPT FOR NAME
+      addBotMessageWithDelay("Got it! Please enter your Full Name:", 1000, () => {
+        chatFooter.innerHTML = `
+          <div class="chat-input-row">
+            <input type="text" id="nameInput" placeholder="Enter full name..." autocomplete="off" />
+            <button onclick="handleNameSubmit()">Send</button>
+          </div>
+        `;
+        const input = document.getElementById("nameInput");
+        input.focus();
+        input.addEventListener("keypress", (e) => {
+          if (e.key === "Enter") handleNameSubmit();
+        });
+      });
+    }
+
+    function handleNameSubmit() {
+      const nameInput = document.getElementById("nameInput");
+      const nameVal = nameInput ? nameInput.value.trim() : "";
+      
+      if (!nameVal) return;
+
+      userData.name = nameVal;
+      addMessage(nameVal, "user");
+      chatFooter.innerHTML = "";
+
+      // STEP 3: PROMPT FOR PHONE NUMBER
+      addBotMessageWithDelay("Thank you! Please enter your Mobile Phone Number:", 1000, () => {
+        chatFooter.innerHTML = `
+          <div class="chat-input-row">
+            <input type="tel" id="phoneInput" placeholder="Enter mobile number..." autocomplete="off" />
+            <button onclick="handlePhoneSubmit()">Finish</button>
+          </div>
+        `;
+        const input = document.getElementById("phoneInput");
+        input.focus();
+        input.addEventListener("keypress", (e) => {
+          if (e.key === "Enter") handlePhoneSubmit();
+        });
+      });
+    }
+
+    function handlePhoneSubmit() {
+      const phoneInput = document.getElementById("phoneInput");
+      const phoneVal = phoneInput ? phoneInput.value.trim() : "";
+
+      if (!phoneVal) return;
+
+      userData.phone = phoneVal;
+      addMessage(phoneVal, "user");
+      chatFooter.innerHTML = "";
+
+      // STEP 4: CONFIRM & REDIRECT TO WHATSAPP
+      addBotMessageWithDelay("Perfect! Redirecting you to WhatsApp to confirm your booking...", 1200, () => {
+        redirectToWhatsApp();
+      });
+    }
+
+    function redirectToWhatsApp() {
+      const textMessage = `Hello! I would like to request an AC service.%0A%0A` +
+                          `*Service:* ${encodeURIComponent(userData.service)}%0A` +
+                          `*Name:* ${encodeURIComponent(userData.name)}%0A` +
+                          `*Phone:* ${encodeURIComponent(userData.phone)}`;
+      
+      const targetURL = `https://wa.me/${businessNumber}?text=${textMessage}`;
+      window.open(targetURL, "_blank");
+    }
+  </script>
+  <style>
+      /* ===================================================
+       FLOATING BUTTON (TOGGLE ICON)
+       =================================================== */
+    .chat-widget-trigger {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #25d366, #128c7e);
+      color: #ffffff;
+      border: none;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+    }
+
+    .chat-widget-trigger:hover {
+      transform: scale(1.08);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+    }
+
+    .chat-widget-trigger svg {
+      width: 30px;
+      height: 30px;
+      fill: currentColor;
+    }
+
+    /* Pulse Notification Badge */
+    .trigger-badge {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 14px;
+      height: 14px;
+      background-color: #ff3b30;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+      animation: pulse-badge 2s infinite;
+    }
+
+    @keyframes pulse-badge {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.7); }
+      70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(255, 59, 48, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 59, 48, 0); }
+    }
+
+    /* ===================================================
+       CHAT CONTAINER MODAL
+       =================================================== */
+    .chat-widget-card {
+      position: fixed;
+      bottom: 96px;
+      right: 24px;
+      width: 360px;
+      max-width: calc(100vw - 32px);
+      height: 520px;
+      max-height: calc(100vh - 120px);
+      background-color: #efeae2; /* Signature WhatsApp background */
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      z-index: 9998;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(20px) scale(0.95);
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .chat-widget-card.active {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0) scale(1);
+    }
+
+    /* Header */
+    .chat-header {
+      background-color: #075e54;
+      color: #ffffff;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .chat-header-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .avatar-icon {
+      width: 40px;
+      height: 40px;
+      background-color: #128c7e;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    .chat-header-text h4 {
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .chat-header-text .status-indicator {
+      font-size: 12px;
+      color: #25d366;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+
+    }
+
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      background-color: #25d366;
+      border-radius: 50%;
+    }
+
+    .close-btn {
+      background: none;
+      border: none;
+      color: #ffffff;
+      font-size: 20px;
+      cursor: pointer;
+      opacity: 0.8;
+      transition: opacity 0.2s;
+    }
+
+    .close-btn:hover {
+      opacity: 1;
+    }
+
+    /* Body Messages */
+    .chat-body {
+      flex: 1;
+      padding: 16px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      background-image: radial-gradient(#d5ceb8 8%, transparent 8%);
+      background-size: 16px 16px;
+    }
+
+    .msg {
+      max-width: 82%;
+      padding: 10px 14px;
+      border-radius: 12px;
+      font-size: 14px;
+      line-height: 1.4;
+      word-wrap: break-word;
+      animation: fadeIn 0.25s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .msg.bot {
+      background-color: #ffffff;
+      color: #333333;
+      align-self: flex-start;
+      border-top-left-radius: 2px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+    }
+
+    .msg.user {
+      background-color: #dcf8c6;
+      color: #111111;
+      align-self: flex-end;
+      border-top-right-radius: 2px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+    }
+
+    /* Bouncing Typing Dots */
+    .typing-indicator {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 10px 14px;
+    }
+
+    .typing-indicator span {
+      width: 7px;
+      height: 7px;
+      background-color: #888888;
+      border-radius: 50%;
+      animation: bounce 1.4s infinite ease-in-out both;
+    }
+
+    .typing-indicator span:nth-child(1) { animation-delay: -0.32s; }
+    .typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
+
+    @keyframes bounce {
+      0%, 80%, 100% { transform: scale(0); opacity: 0.4; }
+      40% { transform: scale(1); opacity: 1; }
+    }
+
+    /* Footer / Options Area */
+    .chat-footer {
+      padding: 12px;
+      background-color: #f0f0f0;
+      border-top: 1px solid #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .option-btn {
+      background-color: #ffffff;
+      border: 1px solid #128c7e;
+      color: #128c7e;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 13.5px;
+      font-weight: 500;
+      text-align: left;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .option-btn:hover {
+      background-color: #128c7e;
+      color: #ffffff;
+    }
+
+    .chat-input-row {
+      display: flex;
+      gap: 8px;
+    }
+
+    .chat-input-row input {
+      flex: 1;
+      padding: 10px 14px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      font-size: 14px;
+      outline: none;
+    }
+
+    .chat-input-row input:focus {
+      border-color: #128c7e;
+    }
+
+    .chat-input-row button {
+      background-color: #128c7e;
+      color: #ffffff;
+      border: none;
+      padding: 0 16px;
+      border-radius: 20px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .chat-input-row button:hover {
+      background-color: #075e54;
+    }
+  </style>
+
+
+<!--End of Tawk.to Script-->
 </div>
 <!-- End Page Wrapper -->
 
