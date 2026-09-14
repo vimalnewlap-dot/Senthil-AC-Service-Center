@@ -5829,7 +5829,7 @@ Section Title
   font-weight: var(--sec-title-font-weight);
   line-height: var(--sec-title-title-line-height);
   margin-bottom: 0;
-  font-size: clamp(30px, 4vw, 50px);
+  font-size: clamp(19px, 4vw, 46px);
   line-height: 1.2;
 }
 .sec-title h2 span {
@@ -6829,7 +6829,7 @@ Section Title
   font-size: 20px;
   line-height: 30px;
   margin-left: 15px;
-  max-width: 119px;
+  max-width: 175px;
   text-transform: uppercase;
   text-align: left;
 }
@@ -8647,8 +8647,7 @@ Section Title
 }
 .about-section-three .image-column2 .image-box {
   border-radius: 30px;
-  -webkit-mask-image: url(../resource/about-img2-2-masking.png);
-  mask-image: url(../resource/about-img2-2-masking.png);
+  
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -9996,6 +9995,7 @@ Section Title
   line-height: 23px;
   letter-spacing: -0.03em;
   padding: 15px 30px;
+  margin: 0 10px 0;
 }
 .tabs-box.home1-style .tab-btns .tab-btn.active-btn {
   background: var(--theme-color3);
@@ -10184,7 +10184,7 @@ Funfact Section Home 1
 .testimonial-section-one .testimonial-content-wrapper {
   background-color: var(--theme-color-light);
   border-radius: 40px;
-  padding: 120px 30px 70px;
+  padding: 75px 30px 48px;
   position: relative;
 }
 @media (max-width: 1499.98px) {
@@ -10198,7 +10198,7 @@ Funfact Section Home 1
   }
 }
 .testimonial-section-one .testimonial-content-wrapper .sec-title {
-  margin-bottom: 80px;
+  margin-bottom: 21px;
   margin-left: 50px;
 }
 @media (max-width: 1499.98px) {
@@ -10366,11 +10366,11 @@ Funfact Section Home 1
 .testimonial-block-one .inner-box .text {
   border-bottom: 1px solid rgba(var(--theme-color-white-rgb), 0.2);
   color: var(--theme-color-white);
-  font-size: 24px;
+  font-size: 21px;
   max-width: 660px;
-  margin-top: 20px;
-  margin-bottom: 35px;
-  padding-bottom: 42px;
+  margin-top: 13px;
+  margin-bottom: 20px;
+  padding-bottom: 27px;
   text-transform: capitalize;
 }
 @media (max-width: 1499.98px) {
@@ -11835,12 +11835,12 @@ Process Section Two
 }
 .footer-style-one .contact-widget,
 .footer-style-one .links-widget {
-  padding-left: 100px;
+  padding-left: 30px;
 }
 @media (max-width: 1199.98px) {
   .footer-style-one .contact-widget,
   .footer-style-one .links-widget {
-    padding-left: 70px;
+    padding-left: 40px;
   }
 }
 @media (max-width: 991.98px) {
